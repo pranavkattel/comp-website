@@ -4,6 +4,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    background: linear-gradient(105deg,#ffffff, #e4ba80 );
+}
 /*navbar*/
 
 .nav-left a {
@@ -150,6 +153,7 @@
     background-color: #1a1915;
     color: white;
     margin-top: 2rem;
+    padding-bottom: 2rem;
 }
 .footer-nav {
     text-align: center;

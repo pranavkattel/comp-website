@@ -137,10 +137,11 @@ p{
     flex-direction: row;
     flex-basis: 580px;
     margin-bottom: 20px;
-
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
-    border: 2px solid black;
+    border: 2px solid #bc8d4b;
+}
+.box:hover {
+    transform: scale(1.001);
+    box-shadow: 1px 1px 30px black;
 }
 
 .box img {
@@ -148,7 +149,9 @@ p{
     width: 100%;
 }
 
-
+body {
+    background: linear-gradient(135deg,#ffffff, #e4ba80 );
+}
 
 /*footer*/
 .footer-nav a {
@@ -169,6 +172,7 @@ p{
     background-color: #1a1915;
     color: white;
     margin-top: 2rem;
+    padding-bottom: rem;
 }
 .footer-nav {
     text-align: center;
